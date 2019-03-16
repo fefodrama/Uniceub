@@ -2,23 +2,25 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class calcImc{
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 	
 		
 	float peso;
 	float altura;
 	float IMC;
-	string lerPeso = "";
-	string lerAltura = "";	
+	String lerPeso = "";
+	String lerAltura = "";	
 		
 	System.out.println("Digite seu peso ");
-	lerpeso = (new BufferedReader(new InputStreamReader(System.in))).readLine();
-	peso = Float.parseFloat(lerpeso);
+	lerPeso = (new BufferedReader(new InputStreamReader(System.in))).readLine();
+	peso = Float.parseFloat(lerPeso);
 		
 		
 		
 	System.out.println("Digite sua altura ");
-		
+	lerAltura = (new BufferedReader(new InputStreamReader(System.in))).readLine();
+	altura = Float.parseFloat(lerAltura);
+	
 	IMC = peso / (altura * altura);
 	
 	System.out.println("Seu imc e " +IMC);
