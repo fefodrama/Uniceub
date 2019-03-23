@@ -26,11 +26,11 @@ public class equacao2grau{
 	
 	if (delta < 0) {
 		
-		System.out.println("Delta negativo, não existem raízes reais.");
+		System.out.println("Delta negativo, nÃ£o existem raÃ­zes reais.");
 		
 	}
 	else if(delta == 0) {
-		System.out.println("Delta = 0, entao temos 2 raízes iguais: ");
+		System.out.println("Delta = 0, entao temos 2 raÃ­zes iguais: ");
 		
 		x1 = ((-b) + Math.sqrt(delta)) / 2 * a;
 		x2 = ((-b) - Math.sqrt(delta)) / 2 * a;
@@ -38,7 +38,7 @@ public class equacao2grau{
 		System.out.println("x'' = " + x2);
 	}
 	else {
-		System.out.println("Delta positivo, as raízes são diferentes: ");
+		System.out.println("Delta positivo, as raÃ­zes sÃ£o diferentes: ");
 		
 		x1 = ((-b) + Math.sqrt(delta)) / 2 * a;
 		x2 = ((-b) - Math.sqrt(delta)) / 2 * a;
@@ -46,11 +46,8 @@ public class equacao2grau{
 		
 		System.out.println("x' = " + x1);
 		System.out.println("x'' = " + x2);
-			
-		
-	}
-	
-	
+				
+		}
 	
 		
 	}
