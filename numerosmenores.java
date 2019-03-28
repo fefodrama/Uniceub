@@ -11,21 +11,19 @@ public class numerosmenores{
 	double menor1;
 	double menor2 = 0;
 	double resultado;
-	String lerA = "";
-	String lerB = "";
-	String lerC = "";
+	String leitor = "";
 	
 	System.out.println("Digite o primeiro valor: ");
-	lerA = (new BufferedReader(new InputStreamReader(System.in))).readLine();
-	a = Double.parseDouble(lerA);
+	leitor = (new BufferedReader(new InputStreamReader(System.in))).readLine();
+	a = Double.parseDouble(leitor);
 	
 	System.out.println("Digite o segundo valor: ");
-	lerB = (new BufferedReader(new InputStreamReader(System.in))).readLine();
-	b = Double.parseDouble(lerB);
+	leitor = (new BufferedReader(new InputStreamReader(System.in))).readLine();
+	b = Double.parseDouble(leitor);
 	
 	System.out.println("Digite o terceiro valor: ");
-	lerC = (new BufferedReader(new InputStreamReader(System.in))).readLine();
-	c = Double.parseDouble(lerC);
+	leitor = (new BufferedReader(new InputStreamReader(System.in))).readLine();
+	c = Double.parseDouble(leitor);
 	
 	if (a <= b && a <= c) {
 	menor1 = a;	
