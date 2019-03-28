@@ -4,19 +4,19 @@ import java.io.InputStreamReader;
 public class aumentodesalarios{
 	public static void main (String[] args)throws Exception {
 		int cargo;
-		String lerCargo = "";
-		String lerSalario = "";
+		String leitor = "";
+		
 		double atual, novo;
 		
 	System.out.println("==========Programa de aumento de salario de classes diferentes==========\n");	
 	System.out.println("Digite o numero correspondente do seu cargo:\n 1 - escritorio\n 2 - secretario\n 3 - caixa\n 4 - gerente\n 5 - diretor\n");
 	
-		lerCargo = (new BufferedReader(new InputStreamReader(System.in))).readLine();
-		cargo = Integer.parseInt(lerCargo);
+		leitor = (new BufferedReader(new InputStreamReader(System.in))).readLine();
+		cargo = Integer.parseInt(leitor);
 		
 		System.out.println("Digite o seu salario atual");
-		lerSalario = (new BufferedReader(new InputStreamReader(System.in))).readLine();
-		atual = Double.parseDouble(lerSalario);
+		leitor = (new BufferedReader(new InputStreamReader(System.in))).readLine();
+		atual = Double.parseDouble(leitor);
 		
 		switch(cargo) {
 		
