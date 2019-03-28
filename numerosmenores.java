@@ -44,7 +44,18 @@ public class numerosmenores{
 		}
 	}
 	else {
-	menor1 = c;	
+	menor1 = c;
+		
+		if (b <= a) {
+			menor2 = b;
+			
+			}
+		else {
+			menor2 = a;
+			
+			}
+		}
+			
 	}
 	
 	
