@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class vetor {
+public class tabelaValor {
     public static void main (String args[]) throws Exception{
     	//Declaração de variáveis
     	BufferedReader ler = (new BufferedReader( new InputStreamReader(System.in)));
